@@ -1,6 +1,5 @@
 const fn = require('./functions')
 const pathFile = __dirname + '/the-office-s05-subtitles'
-let i = 0
 
 function groupByWords(arrayWords) {
     return Object.values(arrayWords.reduce((counter, word) => {
